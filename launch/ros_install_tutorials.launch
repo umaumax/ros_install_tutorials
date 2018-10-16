@@ -1,0 +1,6 @@
+<launch>
+    <arg name="hoge" default="1.0"/>
+    <node pkg="ros_install_tutorials" name="ros_install_tutorials_node" type="ros_install_tutorials_node">
+      <param name="hoge" value="$(arg hoge)"/>
+    </node>
+</launch>
