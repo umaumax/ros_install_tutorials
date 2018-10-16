@@ -2,10 +2,10 @@
 
 ## description of CMakeLists.txt
 
-`install`ディレクトリ以下に構成される
-`${CATKIN_PACKAGE_LIB_DESTINATION}`: `lib`
-`${CATKIN_PACKAGE_BIN_DESTINATION}`: `lib/<package name>`
-`${CATKIN_PACKAGE_SHARE_DESTINATION}`: `share/<package name>`
+* `install`ディレクトリ以下に構成される
+    * `${CATKIN_PACKAGE_LIB_DESTINATION}`: `lib`
+    * `${CATKIN_PACKAGE_BIN_DESTINATION}`: `lib/<package name>`
+    * `${CATKIN_PACKAGE_SHARE_DESTINATION}`: `share/<package name>`
 
 ## how to install
 ```
